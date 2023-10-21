@@ -1,0 +1,5 @@
+packages:
+  - name: link-shortener
+    functions:
+      - name: go
+        runtime: python:default
