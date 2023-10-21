@@ -5,6 +5,7 @@ ROUTES = {
 def main(args):
   name = args["http"]["path"]
 
+  print(f"Received request for '{name}'");
   redirect_url = ROUTES.get(name, "https://jread.dev")
 
   return {
