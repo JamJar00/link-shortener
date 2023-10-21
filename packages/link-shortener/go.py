@@ -3,7 +3,7 @@ import logging
 logging.basicConfig(format="%(asctime)s %(levelname)-5s - %(name)s\t%(message)s")
 
 ROUTES = {
-  "goog": "httpsm://google.co.uk"
+  "/goog": "https://google.co.uk"
 }
 
 def main(args):
