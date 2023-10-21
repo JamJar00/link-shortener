@@ -11,3 +11,8 @@ To deploy the link shortener:
 3. Setup the DNS so you have a nice URL
 4. Go to the link-shortener component's settings and change the `HTTP Request Routes` so that `/` routes to `/link-shortener/go/`. This will shorten the URL that you need to call to hit the shortener
 5. Test by going to `/goog`. It should take you to Google.
+
+Logging doesn't appear to work for some reason
+
+## Routes
+Routes are defined within the [routes.json](./packages/link-shortener/routes.json) file.
