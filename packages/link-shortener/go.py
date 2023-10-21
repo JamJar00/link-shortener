@@ -1,6 +1,6 @@
 import logging
 
-logging.basicConfig(format="%(asctime)s %(levelname)-5s - %(name)s\t%(message)s")
+logging.basicConfig(level=logging.DEBUG, format="%(asctime)s %(levelname)-5s - %(name)s\t%(message)s")
 
 ROUTES = {
   "/goog": "https://google.co.uk"
